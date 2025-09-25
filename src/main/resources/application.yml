@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: Product-Angular-Integration
+  jackson:
+    time-zone: Asia/Kolkata  
+
+
+  # --- PostgreSQL (target) ---
+  datasource:
+    url: jdbc:postgresql://localhost:5432/school
+    username: postgres
+    password: Qwerty12#
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update # For demo. In prod, use validate or migrations.
+    properties:
+      hibernate:
+        jdbc:
+          batch_size: 100
+        order_inserts: true
+        order_updates: true
+        generate_statistics: false
+    open-in-view: false
+
