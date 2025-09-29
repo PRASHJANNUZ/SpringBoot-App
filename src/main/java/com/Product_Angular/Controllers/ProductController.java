@@ -28,7 +28,7 @@ public class ProductController {
     @GetMapping("/{id}")
     public Product getById(@PathVariable Long id) { 
     	
-    	System.out.println("GetById() method Executed And CI/CD Pipeline is triggered...");
+    	System.out.println("GetById() method Executed And CI/CD Pipeline is also Executed...");
     	return service.findById(id); 
     }
 
