@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: springboot-angular-app
-          image: prashant302/myproject:v1.0	
+          image: prashant302/myproject:latest   # placeholder, overridden by Jenkins
           ports:
             - containerPort: 8080
           env:
