@@ -16,6 +16,7 @@ public class ProductAngularIntegrationApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ProductAngularIntegrationApplication.class, args);
 		System.out.println("Angular App Started....");
+		System.out.println("Tanmay is added....");
 	}
 
 	@Bean
