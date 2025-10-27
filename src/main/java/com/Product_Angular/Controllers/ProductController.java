@@ -29,9 +29,6 @@ public class ProductController {
     public Product getById(@PathVariable Long id) { 
     	
     	System.out.println("GetById() method Executed And CI/CD Pipeline is also Executed....");
-    	System.out.println("yogesh");
-    	System.out.println("Omkar");
-    	System.out.println("Mayur");
     	return service.findById(id); 
     }
 
