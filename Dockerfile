@@ -1,6 +1,6 @@
 
 # Use an official OpenJDK runtime as a parent image
-FROM openjdk:17
+FROM openjdk:17-ea-10-jdk
 
 # Add a volume pointing to /tmp
 VOLUME /tmp
